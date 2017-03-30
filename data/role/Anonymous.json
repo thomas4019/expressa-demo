@@ -7,10 +7,34 @@
     "users: create": true,
     "users: view own": true,
     "users: edit own": true,
-    "users: delete own": true
+    "users: delete own": true,
+    "blogpost: create": false,
+    "blogpost: delete": false,
+    "blogpost: delete own": false,
+    "blogpost: edit": false,
+    "blogpost: edit own": false,
+    "blogpost: view": true,
+    "blogpost: view own": false,
+    "collection: create": false,
+    "collection: delete": false,
+    "collection: edit": false,
+    "collection: view": false,
+    "role: create": false,
+    "role: delete": false,
+    "role: edit": false,
+    "role: view": false,
+    "settings: create": false,
+    "settings: delete": false,
+    "settings: edit": false,
+    "settings: view": false,
+    "users: delete": false,
+    "users: edit": false,
+    "users: modify roles": false,
+    "users: view": false,
+    "users: view hashed passwords": false
   },
   "meta": {
     "created": "2017-03-27T03:55:30.005Z",
-    "updated": "2017-03-27T03:55:30.005Z"
+    "updated": "2017-03-30T08:07:12.870Z"
   }
 }

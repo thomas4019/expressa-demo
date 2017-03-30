@@ -3,10 +3,38 @@
   "permissions": {
     "collection: view relevant": true,
     "schemas: view": true,
-    "view errors": false
+    "view errors": false,
+    "blogpost: create": false,
+    "blogpost: delete": false,
+    "blogpost: delete own": false,
+    "blogpost: edit": false,
+    "blogpost: edit own": false,
+    "blogpost: view": false,
+    "blogpost: view own": false,
+    "collection: create": false,
+    "collection: delete": false,
+    "collection: edit": false,
+    "collection: view": false,
+    "role: create": false,
+    "role: delete": false,
+    "role: edit": false,
+    "role: view": false,
+    "settings: create": false,
+    "settings: delete": false,
+    "settings: edit": false,
+    "settings: view": false,
+    "users: create": false,
+    "users: delete": false,
+    "users: delete own": false,
+    "users: edit": false,
+    "users: edit own": false,
+    "users: modify roles": false,
+    "users: view": false,
+    "users: view hashed passwords": false,
+    "users: view own": false
   },
   "meta": {
     "created": "2017-03-27T03:55:30.004Z",
-    "updated": "2017-03-27T03:55:30.004Z"
+    "updated": "2017-03-30T08:07:12.867Z"
   }
 }
