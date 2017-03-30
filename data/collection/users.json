@@ -1,0 +1,47 @@
+{
+  "_id": "users",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "meta": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {}
+      },
+      "email": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "fullName": {
+        "type": "string"
+      },
+      "roles": {
+        "items": {
+          "type": "string",
+          "enum": [
+            "Admin",
+            "Anonymous",
+            "Authenticated",
+            "Test"
+          ]
+        },
+        "uniqueItems": true,
+        "type": "array",
+        "format": "checkbox"
+      }
+    },
+    "required": [
+      "email",
+      "password"
+    ]
+  },
+  "storage": "mongodb",
+  "documentsHaveOwners": true,
+  "meta": {
+    "updated": "2017-03-27T03:55:30.660Z",
+    "created": "2017-03-27T03:55:30.660Z"
+  }
+}

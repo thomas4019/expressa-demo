@@ -1,0 +1,12 @@
+{
+  "_id": "production",
+  "postgresql_uri": "postgres://<username>:<password>@localhost/<database name>",
+  "mongodb_uri": "mongodb://exp:exp@ds143340.mlab.com:43340/expressa",
+  "jwt_secret": "123123",
+  "enforce_permissions": true,
+  "installed": true,
+  "meta": {
+    "created": "2017-03-27T03:55:30.677Z",
+    "updated": "2017-03-27T03:55:30.677Z"
+  }
+}

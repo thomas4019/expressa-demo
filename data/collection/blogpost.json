@@ -1,0 +1,22 @@
+{
+  "_id": "blogpost",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "body": {
+        "type": "string",
+        "format": "textarea"
+      }
+    }
+  },
+  "storage": "mongo",
+  "documentsHaveOwners": true,
+  "meta": {
+    "created": "2017-03-30T06:52:08.818Z",
+    "updated": "2017-03-30T06:52:24.702Z",
+    "owner": "58d88d315088db008771d318"
+  }
+}

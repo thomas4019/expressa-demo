@@ -1,0 +1,16 @@
+{
+  "_id": "Anonymous",
+  "permissions": {
+    "collection: view relevant": true,
+    "schemas: view": true,
+    "view errors": false,
+    "users: create": true,
+    "users: view own": true,
+    "users: edit own": true,
+    "users: delete own": true
+  },
+  "meta": {
+    "created": "2017-03-27T03:55:30.005Z",
+    "updated": "2017-03-27T03:55:30.005Z"
+  }
+}
